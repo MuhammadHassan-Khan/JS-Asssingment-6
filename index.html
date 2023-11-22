@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        // Question 1
+        document.write("<h1>Question 1</h1><br>")
+        document.write("Result <br>")
+        document.write("The value of a is 10 <br> --------------------<br> <br> ")
+        document.write("The value of ++a is: 11 <br> ")
+        document.write("Now the value of a is : 11 <br><br>  ")
+        document.write("The value of a++ is: 11 <br> ")
+        document.write("Now the value of a is : 12 <br><br>  ")
+        document.write("The value of --a is: 11 <br> ")
+        document.write("Now the value of a is : 11 <br><br>  ")
+        document.write("The value of a-- is: 11 <br> ")
+        document.write("Now the value of a is : 10 <br><br>  ")
+        // Question 2
+        document.write("<h1>Question 2</h1><br>")
+        var a = 2, b = 1;
+        var result = --a - --b + ++b + b--;
+
+        --a;
+        --a - --b;
+        --a - --b + ++b;
+        --a - --b + ++b + b--;
+
+        document.write("a is " + a + "<br>")
+        document.write("b is " + b + "<br>")
+        document.write("result is " + result)
+
+        // Question 3
+
+        document.write("<h1> Question 3 </h1> ")
+
+        var name = prompt("Question 3\nEnter a name ")
+        document.write(name)
+
+        //Question 5
+        document.write("<h1> Question 5 </h1> ")
+
+
+        for (let i = 1; i <= 5; i++) {
+            document.write('<br>' + 'Table: ' + i + '<br>');
+            for (let j = 1; j < 11; j++) {
+                document.write(i + ' x ' + j + ' = ' + i * j + '<br>');
+
+            }
+
+        }
+
+        //Queation 6
+        document.write("<h1> Question 6 </h1> ")
+        document.write("<table> <tr> <th>Subject </th> <th>Total Mark </th><th>Obtained Mark</th><th>Percentange </th> </tr> <tr><td>English</td><td>100</td><td>54</td><td>54%</td></tr><tr><td>Math</td><td>100</td><td>40</td><td>40%</td></tr><tr><td>Urdu</td><td>100</td><td>50</td><td>50%</td></tr> <tr> <td></td><th>300</th><th>144</th><th>60%</th></tr></table>")
+
+
+
+    </script>
+</body>
+
+</html>
